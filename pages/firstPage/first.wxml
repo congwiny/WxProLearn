@@ -1,0 +1,30 @@
+<!--模板-->
+<include src="../templates/header"/>
+
+<!--{text}的值需要在first.js中data定义-->
+<text>{{text}}</text>
+<button bindtap="clickBtn">{{textBtn}}</button>
+<!--条件判断标签-->
+<view wx:if="{{show}}">{{text}} if</view>
+<view wx:else="{{show}}">{{text}} else</view>
+
+<!--循环标签 item是每个内容,微信给定的。。使用index得到当前是第几条-->
+<view wx:for="{{['a','b','c']}}">
+  {{index}}--{{item}}
+</view>
+
+<!--导入模板-->
+<import src="../templates/footer"/>
+<template is="footer2" data="{{text:'(∩_∩)'}}"/>
+
+<view class="view1" bindtap="view1Click" id="view1" data-title="News" data-content="Learn Wx Progromme">
+view1
+  <view class="view2" bindtap="view2Click" id="view2">
+  view2
+    <view class="view3" bindtap="view3Click" id="view3">
+    view3
+    </view>
+  </view>
+</view>
+
+

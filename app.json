@@ -1,0 +1,15 @@
+{
+  "pages":[
+    "pages/firstPage/first",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+
+  "comment":"页面要放到第一个啊啊。不能再json里面写注释//"
+}

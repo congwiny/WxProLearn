@@ -1,0 +1,8 @@
+<template name="footer1">
+Hello footer1
+</template>
+
+<template name="footer2">
+Hello footer2--{{text}}
+ <button>哈哈哈</button>
+</template>
