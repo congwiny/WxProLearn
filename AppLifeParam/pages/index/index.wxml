@@ -1,0 +1,24 @@
+<!--index.wxml-->
+<view class="container">
+  <view bindtap="clickArticle1">
+    <text class="user-motto1">文章1</text>
+  </view>
+</view>
+<!--添加redirect属性就是卸载index，跳转-->
+<navigator url="../logs/logs?ids=2" redirect>
+<view class="container">
+  <view>
+    <text class="user-motto1">文章2</text>
+  </view>
+</view>
+</navigator>
+<view class="container">
+  <view>
+    <text class="user-motto1">文章3</text>
+  </view>
+</view>
+<view class="container">
+  <view>
+    <text class="user-motto1">文章4</text>
+  </view>
+</view>
