@@ -1,0 +1,13 @@
+/**index.wxss**/
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: rebeccapurple;
+}
+
+.item{
+  width: 200rpx;
+  height: 200rpx;
+  background-color: coral;
+  border: 1px solid #fff;
+}
